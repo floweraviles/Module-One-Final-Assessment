@@ -8,8 +8,12 @@ function sevenBoom(n) {
     let i = 1;
     let arr = [];
     while (i <= n) {
-      if (i % 7 === 0 && i % 2 !== 0 && i % 1 === 7) {
+      if (i % 7 === 0) {
         arr.push("BOOM");
+      } else if (array.includes (7)) {
+        arr.push("BOOM")
+      } else {
+        arr.push(i)
       }
       i++;
     }
