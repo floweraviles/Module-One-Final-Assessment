@@ -10,7 +10,7 @@ function sevenBoom(n) {
     while (i <= n) {
       if (i % 7 === 0) {
         arr.push("BOOM");
-      } else if (array.includes (7)) {
+      } else if (i.toString().includes("7")){
         arr.push("BOOM")
       } else {
         arr.push(i)
